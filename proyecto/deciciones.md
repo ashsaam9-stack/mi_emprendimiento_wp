@@ -11,7 +11,8 @@ A continuación se detallan los 5 plugins seleccionados para el sitio, verificad
 | **Rank Math SEO** | Optimización del posicionamiento en buscadores (SEO) local. | Sí | 5.6 o superior | Sí | 
 (Probado hasta 7.1)
 [Rank Math SEO en WordPress.org](https://wordpress.org/plugins/seo-by-rank-math/) |
-| **LiteSpeed Cache** | Optimización de velocidad y rendimiento de carga del sitio web. | Sí | 5.3 o superior | Sí | [LiteSpeed Cache en WordPress.org](https://wordpress.org/plugins/litespeed-cache/) |
+| **LiteSpeed Cache** | Optimización de velocidad y rendimiento de carga del sitio web. | Sí | 4.0 o superior | (Probado hata 7.1) 
+Sí | [LiteSpeed Cache en WordPress.org](https://wordpress.org/plugins/litespeed-cache/) |
 | **Really Simple SSL** | Forzar el protocolo HTTPS y seguridad básica de conexiones. | Sí | 4.6 o superior | Sí | [Really Simple SSL en WordPress.org](https://wordpress.org/plugins/really-simple-ssl/) |
 | **UpdraftPlus** | Creación de copias de seguridad (backups) automáticas y restauración. | Sí | 5.2 o superior | Sí | [UpdraftPlus en WordPress.org](https://wordpress.org/plugins/updraftplus/) |
 
