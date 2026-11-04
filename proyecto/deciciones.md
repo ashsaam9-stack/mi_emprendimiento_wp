@@ -22,9 +22,8 @@ Para esta primera etapa de construcción (excluyendo pagos y carrito por ahora),
 3. **Servicios:** Detalla los diferentes tipos de extensiones de pestañas y tratamientos disponibles.
 4. **Sobre mí:** Muestra la historia, experiencia y profesionalismo detrás de STUDIO ASH.
 5. **Blog:** Espacio destinado a compartir consejos de cuidado posterior y tendencias.
-* **Páginas para una fase posterior:** Zona de Preguntas Frecuentes (FAQ) y Carrito de compras/Tienda.
----
-
+* **Páginas para una fase posterior:** Zona de Preguntas Frecuentes (FAQ) y Carrito de compras/Tienda.* **Páginas para una fase posterior:** Zona de Preguntas Frecuentes (FAQ), Carrito de compras/Tienda, 
+* **Páginas para una fase posterior:** Zona de Preguntas Frecuentes (FAQ), Carrito de compras/Tienda, Páginas de Términos y Condiciones, y Políticas de Privacidad (para la protección de datos personales de las clientas).
 ## 3. Plan del Tema (5 pts)
 * **Nombre del tema custom:** `studio-ash-theme`
 * **Tipo:** Tema propio (Custom) desarrollado desde cero.
