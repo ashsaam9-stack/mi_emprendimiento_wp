@@ -22,7 +22,7 @@ Para esta primera etapa de construcción (excluyendo pagos y carrito por ahora),
 3. **Servicios:** Detalla los diferentes tipos de extensiones de pestañas y tratamientos disponibles.
 4. **Sobre mí:** Muestra la historia, experiencia y profesionalismo detrás de STUDIO ASH.
 5. **Blog:** Espacio destinado a compartir consejos de cuidado posterior y tendencias.
-
+* **Páginas para una fase posterior:** Zona de Preguntas Frecuentes (FAQ) y Carrito de compras/Tienda.
 ---
 
 ## 3. Plan del Tema (5 pts)
