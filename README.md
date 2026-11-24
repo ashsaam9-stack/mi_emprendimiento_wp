@@ -1,121 +1,45 @@
-# [Nombre de tu emprendimiento] · Sitio WordPress
+# Studio Ash — Sitio Web Corporativo y de Reservas
 
-> **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
+Sitio web oficial de **Studio Ash**, estudio especializado en belleza, diseño de cejas, extensiones de pestañas y lash lifting. El proyecto fue desarrollado sobre WordPress con un enfoque en identidad visual limpia, navegación intuitiva en dispositivos móviles y captación de clientes mediante formulario de contacto directo.
 
-- **Sitio en producción:** (URL de InfinityFree)
-- **Prototipo en Stitch:** (enlace)
-- **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
-- **Autor/a:** (nombre y sección)
-
-## Contexto de la web
-
-(3 a 5 líneas: qué es tu emprendimiento, a quién le vende, qué problema resuelve el sitio y qué quieres que haga la persona cuando llega. Apóyate en tu proto-persona y tu brief del Parcial 02.)
-
-## Mi tema
-
-Marca una opción y borra la otra sección de instrucciones.
-
-- [ ] **Tema propio:** `(nombre del tema)`
-- [ ] **Tema descargado:** `(nombre del tema)` · (enlace a su ficha)
+* **URL en producción:** https://studioash.infinityfree.me
 
 ---
 
-## Instrucciones si uso un tema propio
+## Requisitos Técnicos
 
-*(Borra esta sección si usas un tema descargado.)*
-
-Cómo instalar mi tema en un WordPress limpio:
-
-1. **Descarga el tema:** (de dónde se baja el `.zip`, por ejemplo la carpeta `proyecto/mi-tema/` comprimida o un *Release* de este repo).
-2. **Instálalo:** en WordPress, **Apariencia > Temas > Añadir nuevo > Subir tema**, elige el `.zip` y pulsa **Instalar ahora**.
-3. **Actívalo:** pulsa **Activar**.
-4. **Configura la portada:** **Ajustes > Lectura > Una página estática** y elige tu página de inicio.
-5. **Crea el menú:** **Apariencia > Menús**, con tus páginas, y asígnalo a «Menú principal».
-6. **Instala los plugins** que necesita (ver tabla de abajo).
-7. **Crea las páginas y entradas** (ver más abajo).
-
-Qué debe tener el servidor: (versión de WordPress y de PHP con que probaste tu tema).
+* **CMS:** WordPress (versión 6.x)
+* **Servidor / Hosting:** InfinityFree (PHP 8.x, MySQL / MariaDB)
+* **Tema activo:** Twenty Twenty-Five (Editor de Bloques / Full Site Editing)
+* **Plugins instalados y activos:**
+  1. **WPForms Lite:** Gestión del formulario de contacto y agendamiento.
+  2. **All-in-One WP Migration:** Generación de respaldos completos y migración del sitio.
+  3. **W3 Total Cache:** Optimización de caché y velocidad de carga.
+  4. **Really Simple SSL / Seguridad básica:** Gestión de certificado HTTPS y refuerzo de seguridad.
+  5. **Yoast SEO (o plugin SEO activo):** Optimización de metadatos y estructura para buscadores.
 
 ---
 
-## Instrucciones si uso un tema descargado
+## Estructura del Sitio
 
-*(Borra esta sección si usas un tema propio.)*
-
-### Requisitos del tema
-
-| Dato | Mi tema |
-|---|---|
-| Nombre y enlace a la ficha | |
-| Gratis o de pago | |
-| Tipo (clásico o de bloques) | |
-| Versión de WordPress que requiere | |
-| Versión de PHP que requiere | |
-| Plugins que necesita (si alguno) | |
-| Licencia | |
-
-### Cómo llevar mi sitio de Local a producción
-
-Explica cómo exportas los datos de tu sitio en Local WP y los importas en producción (InfinityFree) con un plugin. Completa:
-
-- **Plugin de migración que uso:** (nombre y enlace a su ficha). Gratis o de pago: (...). Límites que tiene: (por ejemplo, tamaño máximo de importación).
-- **Qué se exporta:** (entradas, páginas, imágenes, menús, configuración).
-
-Pasos:
-
-1. **En Local:** (cómo exportas, con el plugin).
-2. **En producción:** (instalas un WordPress limpio, instalas el mismo plugin y el mismo tema).
-3. **Importa:** (cómo cargas el archivo que exportaste).
-4. **Revisa:** enlaces permanentes, menú, página de inicio, imágenes y formulario de contacto.
-5. **Problemas que tuve y cómo los resolví:** (...).
+* **Páginas principales:** Inicio, Servicios, Sobre mí, Blog y Contacto.
+* **Entradas de blog:** Artículos informativos sobre cuidados posteriores, comparativa *Lash Lifting vs. Extensiones*, tendencias y presentación del estudio.
 
 ---
 
-## Respaldo y reinstalación en otro servidor
+## Guía de Respaldo y Reinstalación
 
-El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explícalo para que otra persona pueda seguir tus pasos.
+### Cómo generar un respaldo (Backup)
+1. Ingresar al panel de administración de WordPress (`/wp-admin`).
+2. En el menú lateral izquierdo, ir a **All-in-One WP Migration > Exportar**.
+3. Hacer clic en **Exportar a > Archivo**.
+4. Esperar a que el sistema empaquete la base de datos, medios, temas y plugins.
+5. Descargar el archivo generado con extensión `.wpress` y guardarlo en un almacenamiento seguro (local o en la nube).
 
-**Qué respaldar:**
-
-- Los archivos de WordPress (tema, plugins, imágenes subidas).
-- La base de datos (páginas, entradas, menús, configuración).
-
-**Cómo respaldo mi sitio:** (plugin o método que usas, por ejemplo BackWPup o tu plugin de migración; dónde queda el archivo; cada cuánto lo haces).
-
-**Cómo lo reinstalo en un servidor nuevo:**
-
-1. **Requisitos del servidor:** (versión de PHP, de MySQL y de WordPress; espacio necesario).
-2. **Instalar WordPress limpio:** (cómo).
-3. **Restaurar el respaldo:** (cómo lo cargas con tu plugin).
-4. **Ajustar:** (enlaces permanentes, URL del sitio, menú y página de inicio).
-5. **Probar:** (qué revisas para saber que quedó bien: sitio, imágenes, formulario de contacto con un mensaje de prueba).
-
-**Problemas que tuve y cómo los resolví:** (...)
-
-## Plugins instalados
-
-| Plugin | Para qué lo uso | Gratis o de pago | Versión |
-|---|---|---|---|
-| (SEO) | | | |
-| (Contacto) | | | |
-| | | | |
-| | | | |
-| | | | |
-
-## Páginas y entradas
-
-- **Páginas:** (las 5 de la fase 1)
-- **Entradas del blog:** (títulos de tus 3 entradas)
-
-## Cómo me organicé
-
-Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) (si haces tema propio, está en `proyecto/documentacion/`). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
-
-## Plan de continuidad y rendimiento
-
-- **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
-- **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](proyecto/lighthouse.md)
-
-## Uso de IA
-
-- **(Herramienta):** para qué la usé y qué ajusté yo.
+### Cómo reinstalar el sitio en un nuevo servidor
+1. Instalar una copia limpia de WordPress en el nuevo hosting o entorno local.
+2. Acceder al nuevo panel `/wp-admin`, ir a **Plugins > Añadir nuevo**, buscar e instalar **All-in-One WP Migration** y activarlo.
+3. Ir a **All-in-One WP Migration > Importar**.
+4. Seleccionar **Importar desde > Archivo** y cargar el respaldo `.wpress` previamente descargado.
+5. Confirmar la advertencia de sobrescritura de la base de datos y esperar a que finalice el proceso.
+6. Una vez completado, ir a **Ajustes > Enlaces permanentes** y hacer clic en **Guardar cambios** (dos veces si es necesario) para regenerar el archivo `.htaccess` y evitar errores 404 en las páginas internas.
